@@ -103,6 +103,12 @@ Once installed, RigKeeper updates itself.
 - Administrator rights (needed to install drivers)
 - Internet connection
 
+## 🔒 Privacy
+
+RigKeeper does **not** collect or send any personal data, usage statistics or telemetry.
+It only connects to the internet to check for its own updates (GitHub), to download drivers and components
+from their manufacturers (e.g. NVIDIA, Microsoft) and to search for drivers through Windows.
+
 ## 🛠️ How it works
 
 1. **Check** – one click reads your devices, drivers, graphics card, installed components, disks, battery and the system log.
