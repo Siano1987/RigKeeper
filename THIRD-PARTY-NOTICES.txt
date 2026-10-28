@@ -1,0 +1,43 @@
+RigKeeper – third-party components
+==================================
+
+RigKeeper is built with the following open-source components. Each is licensed under its own
+terms; the full license texts are included in this folder.
+
+Qt for Python (PySide6, Shiboken6) and Qt 6
+    Copyright (C) The Qt Company Ltd. and other contributors
+    License: GNU Lesser General Public License v3 (LGPL-3.0-only)  –  LGPL-3.0.txt, GPL-3.0.txt
+    Source code: https://code.qt.io/  ·  https://download.qt.io/official_releases/QtForPython/
+    The Qt and PySide6 libraries are shipped as separate files (DLL / PYD) in the RigKeeper
+    installation folder and are used unmodified. You may replace them with your own compatible
+    builds. RigKeeper's own code is not covered by the LGPL.
+
+Python
+    Copyright (c) 2001 Python Software Foundation; All Rights Reserved
+    License: Python Software Foundation License  –  Python-PSF.txt
+    https://www.python.org/
+
+cryptography
+    Copyright (c) Individual contributors
+    License: Apache License 2.0 OR BSD 3-Clause  –  Apache-2.0.txt, cryptography-BSD-3-Clause.txt
+    https://github.com/pyca/cryptography
+
+OpenSSL (included in cryptography)
+    Copyright (c) The OpenSSL Project Authors
+    License: Apache License 2.0  –  Apache-2.0.txt
+    https://www.openssl.org/
+
+PyInstaller bootloader
+    Copyright (c) PyInstaller Development Team
+    License: GPL 2.0 with a special exception that allows using it in programs under any license.
+    https://pyinstaller.org/
+
+Inno Setup (installer)
+    Copyright (C) Jordan Russell, Martijn Laan
+    https://jrsoftware.org/isinfo.php
+
+Icons in the RigKeeper interface and the RigKeeper logo are original work by the author.
+
+Drivers and components that RigKeeper downloads on request (for example NVIDIA drivers, Microsoft
+Visual C++ Redistributables, DirectX, .NET, PhysX) are NOT part of RigKeeper. They come directly
+from their manufacturers and are subject to the manufacturers' own licenses.
