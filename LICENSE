@@ -1,0 +1,67 @@
+﻿RigKeeper – Freeware License
+Copyright (c) 2026 Rafał Skiba (Siano). All rights reserved.
+
+RigKeeper ("the Software") is free software in the sense of "free of charge" (freeware).
+By installing or using the Software you agree to the terms below.
+
+1. USE
+   You may install and use the Software free of charge on any number of computers,
+   for personal and commercial purposes.
+
+2. SHARING
+   You may share the original, unmodified installer, free of charge, preferably with a link to
+   https://github.com/Siano1987/RigKeeper. You may NOT sell the Software, charge for it, bundle it
+   with other software or installers, or redistribute modified versions.
+
+3. YOUR OWN CODE ONLY
+   You may not modify, decompile or reverse-engineer the RigKeeper application code, except where
+   applicable law expressly permits it. This does not limit your rights to the third-party
+   components included in the Software (see section 4): in particular, you may modify and replace
+   the Qt / PySide6 libraries and reverse-engineer the Software as far as necessary to debug such
+   modifications, as permitted by the GNU LGPL version 3.
+
+4. THIRD-PARTY COMPONENTS
+   The Software includes components owned by others (for example Qt and PySide6, Python,
+   cryptography, OpenSSL). They are licensed under their own terms, listed in
+   THIRD-PARTY-NOTICES.txt, and those terms prevail for those components.
+
+5. DRIVERS AND SOFTWARE INSTALLED BY RIGKEEPER
+   RigKeeper downloads and installs drivers and components published by their manufacturers
+   (for example NVIDIA, Intel, AMD, Microsoft). RigKeeper does not own them and does not change
+   them. When you choose to install them, you accept the license terms of their respective
+   manufacturers, which RigKeeper accepts on your behalf to install them silently.
+
+6. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT
+   NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+   NON-INFRINGEMENT. Changing drivers always carries some risk. RigKeeper creates a restore point
+   and driver backups to help you undo changes, but you use the Software at your own risk.
+
+7. LIMITATION OF LIABILITY
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE AUTHOR SHALL NOT BE LIABLE FOR ANY DAMAGES ARISING
+   FROM THE USE OF, OR INABILITY TO USE, THE SOFTWARE, INCLUDING LOSS OF DATA, HARDWARE MALFUNCTION
+   OR BUSINESS INTERRUPTION. Nothing in this license limits liability that cannot be limited by law.
+
+8. NAME AND LOGO
+   The name "RigKeeper" and its logo may not be used for other products or to suggest that a
+   modified or repackaged version comes from the author.
+
+9. CHANGES
+   Future versions of the Software may come with a different license. Each version is governed by
+   the license supplied with it.
+
+Contact: siano19@gmail.com
+
+
+-----------------------------------------------------------------------------------------------
+Licencja RigKeeper (streszczenie po polsku – wiążący jest tekst angielski powyżej)
+
+- Program jest darmowy: możesz go używać na dowolnej liczbie komputerów, prywatnie i w firmie.
+- Możesz go udostępniać innym za darmo, tylko w oryginalnej, niezmienionej postaci.
+  Nie wolno go sprzedawać, dołączać do innych instalatorów ani rozpowszechniać zmienionych wersji.
+- Nie wolno modyfikować ani dekompilować kodu RigKeeper, z wyjątkiem tego, na co pozwala prawo
+  oraz licencje bibliotek innych firm (m.in. Qt/PySide6 na licencji LGPL 3).
+- Sterowniki i komponenty instalowane przez program należą do ich producentów; instalując je,
+  akceptujesz ich licencje.
+- Program jest dostarczany „tak jak jest”, bez gwarancji. Zmiana sterowników zawsze niesie
+  pewne ryzyko – używasz programu na własną odpowiedzialność, w granicach dopuszczonych prawem.
