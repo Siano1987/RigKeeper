@@ -10,7 +10,7 @@
 
 <p align="center">
   <b>Keep your Windows PC fresh, stable and game-ready — for free.</b><br>
-  Drivers, game components and system health in one clean, no-nonsense app.
+  Drivers, game components, program updates and system health in one clean, no-nonsense app.
 </p>
 
 <p align="center">
@@ -45,7 +45,7 @@ roll back a driver that made your PC less stable.
 
 ## 🚀 Features
 
-- 🩺 **One-click PC check** – drivers, graphics card, game components, disks, battery and system crashes in a single scan,
+- 🩺 **One-click PC check** – drivers, graphics card, game components, programs, disks, battery and system crashes in a single scan,
   with a **0–100 score** and a to-do list where every item has a button that fixes it
 - 🔍 **Driver updates** – finds outdated, missing or faulty drivers and installs **certified, digitally signed drivers
   published by hardware manufacturers**; one driver or all of them at once
@@ -53,6 +53,8 @@ roll back a driver that made your PC less stable.
   silently (optional clean install); official tools for **AMD** and **Intel**
 - 🎮 **Game components** – Visual C++ Redistributables, DirectX, .NET, XNA, OpenAL, PhysX, WebView2 and Vulkan,
   installed from official packages (PhysX is offered only on PCs with an NVIDIA card)
+- 📦 **Program updates** – finds newer versions of your installed programs (7-Zip, VLC, Notepad++, Git…) in Microsoft's
+  official package catalog and updates them silently; ignore the ones you want to keep as they are
 - 🛡️ **Stability Guard** – saves your current driver before every update and watches the system log for 7 days
   (blue screens, unexpected shutdowns, graphics driver hangs). If things get worse, **roll back with one click**
 - 🔧 **Fix device errors** – finds devices with an error in Device Manager (missing driver, code 43, disabled device…)
@@ -86,12 +88,16 @@ roll back a driver that made your PC less stable.
   <img src="assets/screenshots/stability-guard.png" alt="Stability Guard" width="49%">
 </p>
 <p align="center">
+  <img src="assets/screenshots/programs.png" alt="Program updates" width="49%">
   <img src="assets/screenshots/tools.png" alt="Tools – repair and cleanup" width="49%">
+</p>
+<p align="center">
   <img src="assets/screenshots/fix-device-errors.png" alt="Fix device errors" width="49%">
+  <img src="assets/screenshots/tools-light.png" alt="Light mode" width="49%">
 </p>
 <p align="center">
   <img src="assets/screenshots/reinstall-kit.png" alt="Reinstall Kit" width="49%">
-  <img src="assets/screenshots/tools-light.png" alt="Light mode" width="49%">
+  <img src="assets/screenshots/welcome.png" alt="Start screen" width="49%">
 </p>
 
 ## 📦 Download
@@ -119,7 +125,7 @@ from their manufacturers (e.g. NVIDIA, Microsoft) and to search for drivers thro
 
 ## 🛠️ How it works
 
-1. **Check** – one click reads your devices, drivers, graphics card, installed components, disks, battery and the system log.
+1. **Check** – one click reads your devices, drivers, graphics card, installed components and programs, disks, battery and the system log.
 2. **Review** – you get a score and a short to-do list: what's outdated, missing or broken, and why it matters.
 3. **Fix** – you choose what to update or repair; a restore point and a backup of the current driver are created first.
 4. **Watch** – for the next 7 days Stability Guard checks that the new drivers behave. If not, roll back with one click.
@@ -137,6 +143,7 @@ from their manufacturers (e.g. NVIDIA, Microsoft) and to search for drivers thro
 - [x] PC health score & report
 - [x] Signed automatic updates
 - [x] Fix device errors & clean up unused devices
+- [x] Program updates
 - [ ] Code-signed installer
 - [ ] Available via `winget`
 - [ ] **Stable 1.0 release**
