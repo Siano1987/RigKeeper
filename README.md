@@ -55,6 +55,10 @@ roll back a driver that made your PC less stable.
   installed from official packages (PhysX is offered only on PCs with an NVIDIA card)
 - 🛡️ **Stability Guard** – saves your current driver before every update and watches the system log for 7 days
   (blue screens, unexpected shutdowns, graphics driver hangs). If things get worse, **roll back with one click**
+- 🔧 **Fix device errors** – finds devices with an error in Device Manager (missing driver, code 43, disabled device…)
+  and fixes them in one click: enables, restarts or reinstalls the device and tells you what it did
+- 🧹 **Clean up unused devices** – removes leftovers of old USB drives, disks, mice and other hardware
+  that is no longer connected (system entries are left alone by default)
 - 💾 **Reinstall Kit** – put your drivers, game components, program list and settings on a USB drive and restore
   everything after reinstalling Windows
 - 📋 **PC health report** – disk condition, free space, battery wear, recent crashes and antivirus status,
@@ -69,8 +73,8 @@ roll back a driver that made your PC less stable.
 ## 📸 Screenshots
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/screenshots/my-pc-light.png">
-  <img src="assets/screenshots/my-pc.png" alt="My PC – score and to-do list">
+  <source media="(prefers-color-scheme: light)" srcset="assets/screenshots/scan-light.png">
+  <img src="assets/screenshots/scan.png" alt="Scan – score and to-do list">
 </picture>
 
 <p align="center">
@@ -82,8 +86,12 @@ roll back a driver that made your PC less stable.
   <img src="assets/screenshots/stability-guard.png" alt="Stability Guard" width="49%">
 </p>
 <p align="center">
+  <img src="assets/screenshots/tools.png" alt="Tools – repair and cleanup" width="49%">
+  <img src="assets/screenshots/fix-device-errors.png" alt="Fix device errors" width="49%">
+</p>
+<p align="center">
   <img src="assets/screenshots/reinstall-kit.png" alt="Reinstall Kit" width="49%">
-  <img src="assets/screenshots/stability-guard-light.png" alt="Light mode" width="49%">
+  <img src="assets/screenshots/tools-light.png" alt="Light mode" width="49%">
 </p>
 
 ## 📦 Download
@@ -113,7 +121,7 @@ from their manufacturers (e.g. NVIDIA, Microsoft) and to search for drivers thro
 
 1. **Check** – one click reads your devices, drivers, graphics card, installed components, disks, battery and the system log.
 2. **Review** – you get a score and a short to-do list: what's outdated, missing or broken, and why it matters.
-3. **Fix** – you choose what to update; a restore point and a backup of the current driver are created first.
+3. **Fix** – you choose what to update or repair; a restore point and a backup of the current driver are created first.
 4. **Watch** – for the next 7 days Stability Guard checks that the new drivers behave. If not, roll back with one click.
 
 ## 🗺️ Roadmap
@@ -128,6 +136,7 @@ from their manufacturers (e.g. NVIDIA, Microsoft) and to search for drivers thro
 - [x] Reinstall Kit (USB)
 - [x] PC health score & report
 - [x] Signed automatic updates
+- [x] Fix device errors & clean up unused devices
 - [ ] Code-signed installer
 - [ ] Available via `winget`
 - [ ] **Stable 1.0 release**
