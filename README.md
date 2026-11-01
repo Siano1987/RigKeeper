@@ -54,20 +54,27 @@ roll back a driver that made your PC less stable.
 - 🎮 **Game components** – Visual C++ Redistributables, DirectX, .NET, XNA, OpenAL, PhysX, WebView2 and Vulkan,
   installed from official packages (PhysX is offered only on PCs with an NVIDIA card)
 - 📦 **Program updates** – finds newer versions of your installed programs (7-Zip, VLC, Notepad++, Git…) in Microsoft's
-  official package catalog and updates them silently; ignore the ones you want to keep as they are
+  official package catalog and updates them silently; ignore the ones you want to keep as they are, or let selected
+  programs update automatically in the background (self-updating apps like Edge or game launchers are skipped)
 - 🛡️ **Stability Guard** – saves your current driver before every update and watches the system log for 7 days
   (blue screens, unexpected shutdowns, graphics driver hangs). If things get worse, **roll back with one click**
 - 🔧 **Fix device errors** – finds devices with an error in Device Manager (missing driver, code 43, disabled device…)
   and fixes them in one click: enables, restarts or reinstalls the device and tells you what it did
 - 🧹 **Clean up unused devices** – removes leftovers of old USB drives, disks, mice and other hardware
   that is no longer connected (system entries are left alone by default)
+- 🧽 **Disk cleanup** – temporary files, downloaded update files, old NVIDIA/AMD driver installers (often several GB),
+  error reports and the Recycle Bin; shows how much space you'll get back before deleting anything
+- 🚀 **Startup manager** – turn programs that launch with Windows on or off (the same switch Task Manager uses)
 - 💾 **Reinstall Kit** – put your drivers, game components, program list and settings on a USB drive and restore
   everything after reinstalling Windows
 - 📋 **PC health report** – disk condition, free space, battery wear, recent crashes and antivirus status,
   exportable as an HTML report (handy for a repair shop)
 - ⏪ **Safe by default** – a restore point before changes, driver backups, full history of every operation
-- 🔔 **Runs quietly in the background** – tray icon, notifications and optional scheduled checks
-- 🔄 **Signed automatic updates** – every new version is verified with a digital signature before it is installed
+- 🔔 **Runs quietly in the background** – starts with Windows, sits in the system tray, checks drivers and programs
+  once a day and notifies you only when there's something to do
+- 🔄 **Signed automatic updates** – RigKeeper updates itself at startup; every new version is verified with a digital
+  signature before it is installed
+- 🐞 **Report a problem** – one click packs logs and system info (no personal data) into a single file for the author
 - 🌙 **Dark & light mode** – follows your Windows theme automatically
 - 🌍 **7 languages** – English, Polski, Deutsch, Français, Español, Українська, Nederlands (picked automatically)
 - 💸 **100% free** – no ads, no trials, no hidden paywall
@@ -90,6 +97,10 @@ roll back a driver that made your PC less stable.
 <p align="center">
   <img src="assets/screenshots/programs.png" alt="Program updates" width="49%">
   <img src="assets/screenshots/tools.png" alt="Tools – repair and cleanup" width="49%">
+</p>
+<p align="center">
+  <img src="assets/screenshots/cleanup.png" alt="Disk cleanup" width="49%">
+  <img src="assets/screenshots/startup.png" alt="Startup manager" width="49%">
 </p>
 <p align="center">
   <img src="assets/screenshots/fix-device-errors.png" alt="Fix device errors" width="49%">
@@ -144,6 +155,8 @@ from their manufacturers (e.g. NVIDIA, Microsoft) and to search for drivers thro
 - [x] Signed automatic updates
 - [x] Fix device errors & clean up unused devices
 - [x] Program updates
+- [x] Disk cleanup & startup manager
+- [x] Background checks with notifications
 - [ ] Code-signed installer
 - [ ] Available via `winget`
 - [ ] **Stable 1.0 release**
