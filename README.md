@@ -91,30 +91,11 @@ roll back a driver that made your PC less stable.
 
 <p align="center">
   <img src="assets/screenshots/drivers.png" alt="Driver updates" width="49%">
-  <img src="assets/screenshots/graphics-card.png" alt="Graphics card" width="49%">
-</p>
-<p align="center">
-  <img src="assets/screenshots/components.png" alt="Game components" width="49%">
-  <img src="assets/screenshots/stability-guard.png" alt="Stability Guard" width="49%">
-</p>
-<p align="center">
   <img src="assets/screenshots/programs.png" alt="Program updates" width="49%">
-  <img src="assets/screenshots/tools.png" alt="Tools – repair and cleanup" width="49%">
 </p>
 <p align="center">
   <img src="assets/screenshots/cleanup.png" alt="Disk cleanup" width="49%">
-  <img src="assets/screenshots/startup.png" alt="Startup manager" width="49%">
-</p>
-<p align="center">
-  <img src="assets/screenshots/fix-device-errors.png" alt="Fix device errors" width="49%">
-  <img src="assets/screenshots/tools-light.png" alt="Light mode" width="49%">
-</p>
-<p align="center">
   <img src="assets/screenshots/bios.png" alt="BIOS check" width="49%">
-  <img src="assets/screenshots/reinstall-kit.png" alt="Reinstall Kit" width="49%">
-</p>
-<p align="center">
-  <img src="assets/screenshots/welcome.png" alt="Start screen" width="49%">
 </p>
 
 ## 📦 Download
