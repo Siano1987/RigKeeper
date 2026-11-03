@@ -56,6 +56,8 @@ roll back a driver that made your PC less stable.
 - 📦 **Program updates** – finds newer versions of your installed programs (7-Zip, VLC, Notepad++, Git…) in Microsoft's
   official package catalog and updates them silently; ignore the ones you want to keep as they are, or let selected
   programs update automatically in the background (self-updating apps like Edge or game launchers are skipped)
+- 🧬 **BIOS check** – shows your BIOS version and date and links to a newer one; owners of **Intel 13th/14th gen**
+  CPUs get a clear warning when the BIOS lacks Intel's instability fix (microcode 0x12F)
 - 🛡️ **Stability Guard** – saves your current driver before every update and watches the system log for 7 days
   (blue screens, unexpected shutdowns, graphics driver hangs). If things get worse, **roll back with one click**
 - 🔧 **Fix device errors** – finds devices with an error in Device Manager (missing driver, code 43, disabled device…)
@@ -64,7 +66,8 @@ roll back a driver that made your PC less stable.
   that is no longer connected (system entries are left alone by default)
 - 🧽 **Disk cleanup** – temporary files, downloaded update files, old NVIDIA/AMD driver installers (often several GB),
   error reports and the Recycle Bin; shows how much space you'll get back before deleting anything
-- 🚀 **Startup manager** – turn programs that launch with Windows on or off (the same switch Task Manager uses)
+- 🚀 **Startup manager** – turn programs that launch with Windows on or off (the same switch Task Manager uses),
+  see how long Windows takes to start and which programs slow it down
 - 💾 **Reinstall Kit** – put your drivers, game components, program list and settings on a USB drive and restore
   everything after reinstalling Windows
 - 📋 **PC health report** – disk condition, free space, battery wear, recent crashes and antivirus status,
@@ -107,7 +110,10 @@ roll back a driver that made your PC less stable.
   <img src="assets/screenshots/tools-light.png" alt="Light mode" width="49%">
 </p>
 <p align="center">
+  <img src="assets/screenshots/bios.png" alt="BIOS check" width="49%">
   <img src="assets/screenshots/reinstall-kit.png" alt="Reinstall Kit" width="49%">
+</p>
+<p align="center">
   <img src="assets/screenshots/welcome.png" alt="Start screen" width="49%">
 </p>
 
@@ -157,6 +163,7 @@ from their manufacturers (e.g. NVIDIA, Microsoft) and to search for drivers thro
 - [x] Program updates
 - [x] Disk cleanup & startup manager
 - [x] Background checks with notifications
+- [x] BIOS check & Windows startup time
 - [ ] Code-signed installer
 - [ ] Available via `winget`
 - [ ] **Stable 1.0 release**
