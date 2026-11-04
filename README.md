@@ -145,6 +145,7 @@ from their manufacturers (e.g. NVIDIA, Microsoft) and to search for drivers thro
 - [x] Disk cleanup & startup manager
 - [x] Background checks with notifications
 - [x] BIOS check & Windows startup time
+- [x] Modern Windows 11-style design
 - [ ] Code-signed installer
 - [ ] Available via `winget`
 - [ ] **Stable 1.0 release**
