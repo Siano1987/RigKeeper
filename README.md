@@ -47,6 +47,8 @@ roll back a driver that made your PC less stable.
 
 - 🩺 **One-click PC check** – drivers, graphics card, game components, programs, disks, battery and system crashes in a single scan,
   with a **0–100 score** and a to-do list where every item has a button that fixes it
+- 🪄 **Fix everything** – one confirmation and RigKeeper works through the to-do list by itself: drivers, graphics
+  driver, game components, programs, device errors, disk cleanup and a fresh driver backup
 - 🔍 **Driver updates** – finds outdated, missing or faulty drivers and installs **certified, digitally signed drivers
   published by hardware manufacturers**; one driver or all of them at once
 - 🖥️ **Graphics drivers straight from the vendor** – the latest **NVIDIA** driver downloaded from nvidia.com and installed
@@ -58,8 +60,9 @@ roll back a driver that made your PC less stable.
   programs update automatically in the background (self-updating apps like Edge or game launchers are skipped)
 - 🧬 **BIOS check** – shows your BIOS version and date and links to a newer one; owners of **Intel 13th/14th gen**
   CPUs get a clear warning when the BIOS lacks Intel's instability fix (microcode 0x12F)
-- 🛡️ **Stability Guard** – saves your current driver before every update and watches the system log for 7 days
-  (blue screens, unexpected shutdowns, graphics driver hangs). If things get worse, **roll back with one click**
+- 🛡️ **Stability Guard** – saves your current driver before every update and watches the system log for 3, 7 or 14 days
+  (blue screens, unexpected shutdowns, graphics driver hangs). If things get worse, **roll back with one click** –
+  power cuts and power-button shutdowns don't count against your driver
 - 🔧 **Fix device errors** – finds devices with an error in Device Manager (missing driver, code 43, disabled device…)
   and fixes them in one click: enables, restarts or reinstalls the device and tells you what it did
 - 🧹 **Clean up unused devices** – removes leftovers of old USB drives, disks, mice and other hardware
@@ -126,7 +129,7 @@ from their manufacturers (e.g. NVIDIA, Microsoft) and to search for drivers thro
 1. **Check** – one click reads your devices, drivers, graphics card, installed components and programs, disks, battery and the system log.
 2. **Review** – you get a score and a short to-do list: what's outdated, missing or broken, and why it matters.
 3. **Fix** – you choose what to update or repair; a restore point and a backup of the current driver are created first.
-4. **Watch** – for the next 7 days Stability Guard checks that the new drivers behave. If not, roll back with one click.
+4. **Watch** – for the next few days Stability Guard checks that the new drivers behave. If not, roll back with one click.
 
 ## 🗺️ Roadmap
 
